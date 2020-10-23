@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bwitter/precache-manifest.2022106b1570461696547c697259c78e.js"
+  "/bwitter/precache-manifest.387704907aa859c1c1a4dc11a1015674.js"
 );
 
 self.addEventListener('message', (event) => {
