@@ -8,7 +8,7 @@ const TweetFactory = ({ userObj }) => {
   const [tweet, setTweet] = useState("");
   const [attachment, setAttachment] = useState("");
   const onSubmit = async (event) => {
-    if (tweet === "") {
+    if (tweet === "" && attachment === "") {
       return;
     }
     event.preventDefault();

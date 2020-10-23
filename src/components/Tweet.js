@@ -31,18 +31,26 @@ const Tweet = ({ tweetObj, isOwner, userObj }) => {
     <div className="nweet">
       {editing ? (
         <>
-          <form onSubmit={onSubmit} className="container nweetEdit nweetEdit2">
-            <img
-              src={
-                tweetObj.attachmentUrl
-                  ? tweetObj.attachmentUrl
-                  : "http://www.visioncyber.co.kr/rtimages/n_sub/no_detail_img.gif"
-              }
-              alt={tweetObj.attachmentUrl}
-              width="100px"
-              height="100px"
-              className="nweet__div"
-            />
+          <form onSubmit={onSubmit} className="container nweetEdit">
+            <div
+              style={{
+                paddingBottom: "35px",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={
+                  tweetObj.attachmentUrl
+                    ? tweetObj.attachmentUrl
+                    : "http://www.visioncyber.co.kr/rtimages/n_sub/no_detail_img.gif"
+                }
+                alt={tweetObj.attachmentUrl}
+                width="100px"
+                height="100px"
+                className="nweet__div"
+              />
+            </div>
             <input
               type="text"
               placeholder="내용을 입력해주세요."

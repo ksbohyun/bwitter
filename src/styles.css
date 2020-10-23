@@ -204,19 +204,9 @@ form {
   font-size: 14px;
 }
 
-.nweet__div {
-  right: 10px;
-  top: 150px;
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
 .nweet img {
-  right: 85px;
-  top: 95px;
-  /* position: absolute; */
+  position: relative;
+  width: 100%;
   max-width: 100%;
   height: auto;
   margin-top: 10px;
