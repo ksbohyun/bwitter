@@ -241,7 +241,8 @@ form {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 320px;
+  max-width: 342px;
+  margin-left: 25px;
 }
 
 .authBtn {
@@ -294,6 +295,7 @@ form {
   color: #04aaff;
   cursor: pointer;
   margin-top: 10px;
+  margin-left: 20px;
   margin-bottom: 50px;
   display: block;
   font-size: 12px;
