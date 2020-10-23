@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
-const Navigation = ({ userObj }) => (
+const Navigation = () => (
   <nav>
     <ul style={{ display: "flex", justifyContent: "center", marginTop: 50 }}>
       <li>

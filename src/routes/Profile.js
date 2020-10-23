@@ -23,6 +23,7 @@ const Profile = ({ userObj, refreshUser }) => {
       await userObj.updateProfile({
         displayName: newDisplayName,
       });
+      alert("변경되었습니다.");
       refreshUser();
     }
   };
