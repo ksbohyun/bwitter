@@ -68,7 +68,7 @@ const Tweet = ({ tweetObj, isOwner, userObj }) => {
         </>
       ) : (
         <>
-          <h4 style={{ fontWeight: "bolder" }}>{userObj.displayName}</h4>
+          <h4 style={{ fontWeight: "bolder" }}>{tweetObj.username}</h4>
           <br />
           <h4>{tweetObj.text}</h4>
           <div>
